@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/blue"
+tools:context="com.example.tesco.SearchDetails" >
+
+<TableRow
+android:id="@+id/table"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+android:background="@drawable/rounded_table"
+android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imagedetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp" />
+</TableRow>
+
+<TableRow
+android:id="@+id/table1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+android:background="@drawable/rounded_table"
+android:orientation="horizontal"
+android:layout_below="@+id/table"
+android:layout_alignLeft="@+id/table2"
+android:layout_alignStart="@+id/table2">
+<RelativeLayout
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+ >
+
+
+<TextView
+android:id="@+id/priceresult"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_below="@+id/desresult" />
+
+<TextView
+    android:id="@+id/desresult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="2dp"
+    />
+</RelativeLayout>
+
+</TableRow>
+
+<TableRow
+android:id="@+id/table2"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+android:layout_marginTop="15dp"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:background="@drawable/rounded_table"
+android:layout_below="@+id/table1"
+android:orientation="vertical">
+
+
+<RelativeLayout
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+
+
+    <com.twotoasters.jazzylistview.JazzyListView
+        android:id="@+id/containerallergens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_table"
+        tools:ignore="MergeRootFrame" >
+    </com.twotoasters.jazzylistview.JazzyListView>
+</RelativeLayout>
+</TableRow>
+
+<TableRow
+android:id="@+id/table3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_below="@+id/table2"
+android:layout_marginTop="15dp"
+android:orientation="vertical">
+
+<RelativeLayout
+android:layout_width="wrap_content"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+
+</RelativeLayout>
+
+</TableRow>
+<TableRow
+android:id="@+id/table4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="15dp"
+android:layout_below="@+id/table3"
+android:orientation="vertical">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_marginRight="15dp"
+android:layout_marginLeft="15dp"
+android:layout_alignParentBottom="true"
+android:layout_alignParentRight="true" >
+
+    <com.twotoasters.jazzylistview.JazzyListView
+android:id="@+id/containerdetails"
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:background="@drawable/rounded_table"
+tools:ignore="MergeRootFrame"
+android:layout_alignParentTop="true"
+android:layout_alignParentLeft="true"
+android:layout_alignParentStart="true">
+    </com.twotoasters.jazzylistview.JazzyListView>
+</RelativeLayout>
+</TableRow>
+
+<TableRow
+android:id="@+id/table5"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/table4"
+android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:layout_alignParentBottom="true">
+<Button
+android:id="@+id/add_button_list"
+style="@style/button"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/button"
+android:onClick="onClickAdd"
+android:text="@string/add" />
+</TableRow>
+</RelativeLayout>
+

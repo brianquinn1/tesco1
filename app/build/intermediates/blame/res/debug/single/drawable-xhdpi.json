@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cart.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\cart.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\add.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\blackcart.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\blackcart.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\remove.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\remove.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\list.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\list.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\no.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\no.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cartblack.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\cartblack.png"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\delete.png",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\drawable-xhdpi\\delete.png"
+    }
+]

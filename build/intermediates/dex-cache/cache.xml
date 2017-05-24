@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\d0f13bf7dbfc6ef369a3ee4ea46efd394fddb964\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_7da4858681de21ed9042bcc21790c859d1d97b6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\10cbd7c30e3b68e21b008dedf3776d75debb6d77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_80ce8cdd43f96dcb085f1575c75b61f6557f4fd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\a35b1b623a95578a7917e60459e7e1f96729eb35\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_3933c3e3bcdd5b50681b5bf79a4a393644621e62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\b58c316169bf10a0f6cd5dd3f851e6dcc3743e3e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_dc3a5b946f5116814eff97cfb43c08f1a4d6dbec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\f2f82bcf5518b31dd89747ec73901a16b721006d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_c09af1491401e0287459db171873566df1417040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\61367333f429a371acfba0a126e48c035dfc35a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_4f1c025f6f37bd4dd74a689986a4dbf11d005b1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\f8e7d8d7a40d70a5b84023f56b24c56ca385632d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_78b08c071f8647fbc33a43dcdbf8f89e25d5cfef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_955ea94222fefa2656a6707d4dbc7f9db7aa7765.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\a8adbfaf50153fcc2a3420122f43f16ecb9fca4b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_f6c65c9c85592731db3734702bb59f4a0a3e6936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\86fd6e6e97d8300663b4dc50d0d8770ca26e97d8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_3c286f8463dfc8fab43c41e2edc8fe1331980bfe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\4462cb9b9429476bbfbe64876c07d28954239a22\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_f2489459024508bf0871cc5fda1a7561ebac9863.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha7_1a1a6a7bc1c268c6098fe37e6111d9d097b5ccbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\5bf822a218c3b04e898353d6f51117cd294974af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_18b078017785997d4b27f5c05ba98ea9823de675.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\e8634e62f9f912eb444b4de74876c13929070f43\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_a494c306a7deea9231cbe033c4192b877791ba45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\92126501a083db70160e97aed0938ba10c065bad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_6b2c63ea24377518865219e7544ec3080785a85c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.android\build-cache\d68af5e4a5197a00832cc30b6a8c2083294b1f44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="451e07e95c9f662049ab14915bd1c8114e8acc2b">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\classes_685b80ac805f53b8bf6b55369829887fd43f2884.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\sesa440664\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\sesa440664\StudioProjects\tesco\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_ad9f7fea4cca7145a8915787b697510b3d6d18c2.jar" />
+    </item>
+
+</items>

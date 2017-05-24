@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/barcode"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"/>
+        
+        <TextView
+            android:id="@+id/count"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/barcode" />
+        
+
+
+          <ImageButton
+             android:id="@+id/add"
+    		 android:layout_width="wrap_content"
+    		 android:layout_height="wrap_content"
+    		 android:layout_toLeftOf="@+id/subtract"
+    		 android:focusable="false"
+			 android:focusableInTouchMode="false"
+			 android:background="@drawable/button"
+			 style="@style/button"
+             android:src="@drawable/add" />
+
+         <ImageButton
+             android:id="@+id/subtract"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentRight="true"
+             android:focusable="false"
+             android:focusableInTouchMode="false"
+             android:background="@drawable/button"
+             style="@style/button"
+             android:src="@drawable/remove" />
+
+</RelativeLayout>
+
+
+  
+    </TableRow>
+
+</TableLayout>

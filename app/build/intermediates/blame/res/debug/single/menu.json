@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\list.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\list.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search_details.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\search_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\json_custom_view.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\json_custom_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\details.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\details.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\delete.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\menu\\search.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\menu\\search.xml"
+    }
+]

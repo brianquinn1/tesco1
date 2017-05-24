@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_search_details.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout-land\\activity_search_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_details.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout-land\\activity_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_test.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout-land\\activity_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_search.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout-land\\activity_search.xml"
+    }
+]

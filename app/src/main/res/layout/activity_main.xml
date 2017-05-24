@@ -1,0 +1,252 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical"
+	android:background="@color/blue">
+	<TableRow
+		android:id="@+id/table1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/blue"
+		android:orientation="horizontal"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginTop="15dp">
+
+		<Button
+			android:id="@+id/scan_button"
+			style="@style/button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:background="@drawable/button"
+			android:text="@string/scan" />
+
+
+		<Button
+			android:id="@+id/add_button"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:onClick="onClickAdd"
+			android:layout_weight="1"
+			android:text="@string/add"
+			android:background="@drawable/button"
+			style="@style/button" />
+
+	</TableRow>
+
+
+
+	<TableRow
+		android:id="@+id/table2"
+		android:layout_width="360dp"
+		android:layout_height="90dp"
+		android:layout_weight="1"
+		android:layout_below="@+id/table1"
+		android:gravity="center"
+		android:layout_marginRight="15dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="15dp"
+		android:background="@drawable/rounded_table"
+		android:orientation="horizontal">
+
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="wrap_content"
+			android:layout_height="80dp"
+			android:layout_marginTop="2dp"
+			android:layout_marginBottom="2dp"
+			android:layout_gravity="center"/>"
+	</TableRow>
+
+
+	<TableRow
+		android:id="@+id/table3"
+		android:layout_width="360dp"
+		android:layout_height="90dp"
+		android:background="@drawable/rounded_table"
+		android:orientation="vertical"
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_below="@+id/table2"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true">
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:orientation="vertical" >
+
+			<TextView
+				android:id="@+id/scan_format"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				android:textIsSelectable="true"/>
+
+			<TextView
+				android:id="@+id/scan_content"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/scan_format"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				android:textIsSelectable="true" />
+
+			<TextView
+				android:id="@+id/data"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				android:layout_below="@+id/scan_content"/>
+
+			<TextView
+				android:id="@+id/responseView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				android:layout_below="@+id/data" />
+
+			<TextView
+				android:id="@+id/test"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/responseView"/>
+
+
+		</RelativeLayout>
+	</TableRow>
+
+
+	<TableRow
+		android:id="@+id/table4"
+		android:layout_width="360dp"
+		android:layout_height="90dp"
+		android:background="@drawable/rounded_table"
+		android:orientation="vertical"
+		android:layout_below="@+id/table3"
+		android:layout_marginTop="15dp"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true">
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:orientation="vertical" >
+
+
+			<com.twotoasters.jazzylistview.JazzyListView
+				android:id="@+id/containerallergens"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_alignParentBottom="true"
+				android:background="@drawable/rounded_table"
+				tools:ignore="MergeRootFrame" >
+
+			</com.twotoasters.jazzylistview.JazzyListView>
+
+		</RelativeLayout>
+	</TableRow>
+
+
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:layout_alignParentBottom="true"
+		android:background="@drawable/rounded_table"
+		android:layout_marginLeft="15dp"
+		android:layout_marginRight="15dp"
+		android:layout_marginBottom="15dp">
+
+		<com.twotoasters.jazzylistview.JazzyListView
+			android:id="@+id/containervalue"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			tools:context="com.example.androidlistview.MainActivity"
+			tools:ignore="MergeRootFrame"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentBottom="true">
+
+		</com.twotoasters.jazzylistview.JazzyListView>
+	</RelativeLayout>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/floatingActionButton"
+		android:layout_width="65dp"
+		android:layout_height="65dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="60dp"
+		android:layout_marginRight="25dp"
+		android:theme="@style/Theme.AppCompat"
+		android:background="@drawable/oval"
+		android:clickable="true"
+		app:backgroundTint="@color/blue"
+		android:src="@android:drawable/ic_menu_add"
+		app:pressedTranslationZ="12dp"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/floatingActionButton1"
+		android:visibility="invisible"
+		android:layout_width="65dp"
+		android:layout_height="65dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="120dp"
+		android:layout_marginRight="25dp"
+		android:theme="@style/Theme.AppCompat"
+		android:background="@drawable/oval"
+		android:clickable="true"
+		android:src="@android:drawable/ic_menu_delete"
+		app:backgroundTint="#FF0000"
+		app:pressedTranslationZ="12dp"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/floatingActionButton2"
+		android:visibility="invisible"
+		android:layout_width="65dp"
+		android:layout_height="65dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="180dp"
+		android:layout_marginRight="25dp"
+		android:theme="@style/Theme.AppCompat"
+		android:background="@drawable/oval"
+		android:clickable="true"
+		app:backgroundTint="#008000"
+		android:src="@drawable/cart"
+		app:pressedTranslationZ="12dp"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/floatingActionButton3"
+		android:visibility="invisible"
+		android:layout_width="65dp"
+		android:layout_height="65dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="240dp"
+		android:layout_marginRight="25dp"
+		android:theme="@style/Theme.AppCompat"
+		android:background="@drawable/oval"
+		android:clickable="true"
+		app:backgroundTint="@color/orange"
+		android:src="@drawable/list"
+		app:pressedTranslationZ="12dp"/>
+
+
+
+</RelativeLayout>
