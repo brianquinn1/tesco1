@@ -14,6 +14,10 @@ import com.twotoasters.jazzylistview.JazzyHelper;
 import com.twotoasters.jazzylistview.JazzyListView;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.text.Html;
 import android.util.Log;
@@ -24,8 +28,10 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
+import static android.R.attr.id;
 import static com.example.tesco.R.id.data3;
 
 
@@ -42,10 +48,13 @@ public class Details extends Activity {
 	String name;
 	String valuePer100;
 	String valuePerServing;
+	long dbid;
 	ArrayList<HashMap<String, String>> contactList;
 	ArrayList<HashMap<String, String>>  allergenList;
 	TextView free;
 	TextView allergen;
+	DBAdapter db;
+	Cursor cursor;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +65,9 @@ public class Details extends Activity {
 		contactList = new ArrayList<HashMap<String, String>>();
 		allergenList = new ArrayList<HashMap<String, String>>();
 		Bundle bundle = getIntent().getExtras();
+		db = new DBAdapter(this);
 		if (bundle != null) {
+			dbid = bundle.getLong("dbid");
 			description = bundle.getString("description");
 			pricetext = bundle.getString("pricetext");
 			json = bundle.getString("json");
@@ -257,8 +268,50 @@ public class Details extends Activity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			AlertDialog diaBox = AskOption(dbid);
+			diaBox.show();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+
+	private AlertDialog AskOption(final long id){
+		AlertDialog myQuittingDialogBox =new AlertDialog.Builder(this)
+				//set message, title, and icon
+				.setTitle("Delete")
+				.setMessage("Do you want to Delete")
+				.setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+
+					public void onClick(DialogInterface dialog, int whichButton) {
+
+						db.open();
+						cursor = db.getRow(id);
+						if(cursor.moveToFirst()){
+							db.deleteRow(id);
+							db.close();
+							Toast.makeText(Details.this, "delete"+id, Toast.LENGTH_LONG).show();
+						}
+						dialog.dismiss();
+						finish();
+						Intent list = new Intent(Details.this, List.class);
+						startActivity(list);
+					}
+				})
+				.setNegativeButton("cancel", new DialogInterface.OnClickListener() {
+					public void onClick(DialogInterface dialog, int which) {
+						dialog.dismiss();
+					}
+				})
+				.create();
+		return myQuittingDialogBox;
+	}
+
+	public void onBackPressed()
+	{
+		//do whatever you want the 'Back' button to do
+		//as an example the 'Back' button is set to start a new Activity named 'NewActivity'
+		this.startActivity(new Intent(Details.this,List.class));
+
+		return;
 	}
 }

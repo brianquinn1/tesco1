@@ -36,7 +36,6 @@ public class List extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_list);
 		db = new DBAdapter(this);
-
 		try {
 			String destPath = "/data/data/" + getPackageName() +
 			"/databases";
@@ -70,18 +69,20 @@ public class List extends Activity {
 		@Override
 		public void onItemClick(AdapterView<?> parent, View view,int position, final long id) {
 			Cursor cursor = (Cursor) mylist.getItemAtPosition(position);
+			long dbid = cursor.getLong(cursor.getColumnIndex(DBAdapter.KEY_ROWID));
 			String description = cursor.getString(cursor.getColumnIndex(DBAdapter.KEY_DESCRIPTION));
 			String pricetext = cursor.getString(cursor.getColumnIndex(DBAdapter.KEY_PRICETEXT));
 			String pic = cursor.getString(cursor.getColumnIndex(DBAdapter.KEY_PIC));
 			String json = cursor.getString(cursor.getColumnIndex(DBAdapter.KEY_JSON));
 
 			Intent details = new Intent(List.this, Details.class);
+			details.putExtra("dbid", dbid);
 			details.putExtra("description", description);
 			details.putExtra("pricetext", pricetext);
 			details.putExtra("pic", pic);
 			details.putExtra("json", json);
 			startActivity(details);
-
+			finish();
 		}
 		});
 	}
@@ -89,12 +90,14 @@ public class List extends Activity {
 
 	public void populateListView(){
 		db.open();
-		Cursor cursor = db.getAllRows();
+		Cursor cursor = db.getAllRows()
+				;
 		String [] fromFieldNames = new String [] {DBAdapter.KEY_PRICETEXT, DBAdapter.KEY_DESCRIPTION,DBAdapter.KEY_PIC};
 		int[] toViewIDs = new int [] {R.id.barcode, R.id.description,R.id.image};
 		SimpleCursorAdapter myCursorAdapter = new SimpleCursorAdapter(this,R.layout.single_row, cursor , fromFieldNames, toViewIDs,0);
 		mylist = (ListView) findViewById(R.id.container);
 		mylist.setAdapter(myCursorAdapter);
+
 		myCursorAdapter.setViewBinder(new SimpleCursorAdapter.ViewBinder(){
 
 		public boolean setViewValue(View view, Cursor cursor, int columnIndex){

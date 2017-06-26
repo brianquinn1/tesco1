@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:2:1-62:12
+ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:3:5-32
 	android:versionName
@@ -72,7 +72,7 @@ ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:18:22-77
 application
-ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:20:5-60:19
+ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:20:5-62:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\sesa440664\.android\build-cache\4462cb9b9429476bbfbe64876c07d28954239a22\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sesa440664\.android\build-cache\d0f13bf7dbfc6ef369a3ee4ea46efd394fddb964\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\sesa440664\.android\build-cache\e8634e62f9f912eb444b4de74876c13929070f43\output\AndroidManifest.xml:26:5-20
@@ -159,6 +159,12 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
 		ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:56:27-74
+activity#com.example.tesco.MainPage
+ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:59:9-61:73
+	android:label
+		ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:61:13-61
+	android:name
+		ADDED from C:\Users\sesa440664\StudioProjects\tesco\app\src\main\AndroidManifest.xml:60:13-37
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\sesa440664\.android\build-cache\4462cb9b9429476bbfbe64876c07d28954239a22\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\sesa440664\.android\build-cache\d0f13bf7dbfc6ef369a3ee4ea46efd394fddb964\output\AndroidManifest.xml:25:5-27:34

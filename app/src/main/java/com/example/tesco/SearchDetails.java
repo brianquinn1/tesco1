@@ -125,6 +125,7 @@ public class SearchDetails extends Activity implements OnClickListener {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
@@ -246,7 +247,7 @@ public class SearchDetails extends Activity implements OnClickListener {
 						}
 					}
 					else {
-
+						contactList.clear();
 							per100Header = "";
 							perServingHeader = " ";
 							name = "No Data to display";
@@ -312,10 +313,11 @@ public class SearchDetails extends Activity implements OnClickListener {
 						}
 					}
 					else {
+
 						String allergenName = "Alergens";
 						String strOutput = "None";
 						HashMap<String, String> listAllergen = new HashMap<String, String>();
-
+						allergenList.clear();
 						allergenList.add(listAllergen);
 						listAllergen.put("free", allergenName);
 						listAllergen.put("allergen", strOutput);

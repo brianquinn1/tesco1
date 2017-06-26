@@ -1,4 +1,0 @@
-#Wed May 17 13:32:26 BST 2017
-base.0=C\:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
-renamed.0=classes.dex
-file.0=C\:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

@@ -32,12 +32,12 @@
         "source": "C:\\Users\\sesa440664\\.android\\build-cache\\4462cb9b9429476bbfbe64876c07d28954239a22\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\sesa440664\\.android\\build-cache\\4462cb9b9429476bbfbe64876c07d28954239a22\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splash_activity.xml",
         "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout\\splash_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\sesa440664\\.android\\build-cache\\4462cb9b9429476bbfbe64876c07d28954239a22\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -142,6 +142,10 @@
     {
         "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\sesa440664\\.android\\build-cache\\d0f13bf7dbfc6ef369a3ee4ea46efd394fddb964\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
+        "source": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\src\\main\\res\\layout\\activity_main_page.xml"
     },
     {
         "merged": "C:\\Users\\sesa440664\\StudioProjects\\tesco\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context="com.example.tesco.MainPage">
+
+    <Button
+        android:id="@+id/scan_button"
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickScan"
+        android:background="@drawable/button"
+        android:layout_marginTop="5dp"
+        android:text="@string/scan" />
+
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickSearch"
+        android:text="@string/search"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/scan_button"
+        android:background="@drawable/button"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/list_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickList"
+        android:text="@string/list"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/search_button"
+        android:background="@drawable/button"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/shop_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickShop"
+        android:text="@string/shop"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/list_button"
+        android:background="@drawable/button"
+        style="@style/button" />
+
+
+
+</RelativeLayout>

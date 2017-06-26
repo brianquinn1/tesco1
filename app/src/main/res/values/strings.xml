@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    action_delete
     <string name="app_name">Tesco</string>
-    <string name="scan">Scan</string>
-    <string name="list">List</string>
+    <string name="scan">Scan Item</string>
+    <string name="search">Search Item</string>
+    <string name="list">View List</string>
+    <string name="shop">Shop</string>
     <string name="add">Add to list</string>
     <string name="query">Query API</string>
     <string name="title_activity_list">List</string>
@@ -22,5 +24,6 @@
     <string name="title_activity_search_details">SearchDetails</string>
     <string name="title_activity_fragment">fragment</string>
     <string name="title_activity_fragment2">fragment2</string>
+    <string name="title_activity_main_page">MainPage</string>
 
 </resources>
